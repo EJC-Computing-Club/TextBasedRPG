@@ -11,11 +11,10 @@ import numpy as np
 import json
 import random
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
-import json
-
+#this is where to save the json file. Edit to accept json file, just save as data. Formatting of json file? Contact me at lawjiasen@gmail.com
 with open('/content/drive/MyDrive/Schoolwork/REC/Chatbot Group/Story2.json', encoding='utf-8-sig') as f:
   data = json.load(f)
 
